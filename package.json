@@ -1,0 +1,39 @@
+{
+  "name": "node-minimalist-starter",
+  "description": "A minimalist starting point for TS/MJS projects",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "npx c8 -reporter=lcov ava",
+    "test:watch": "npx c8 -reporter=lcov ava --watch"
+  },
+  "devDependencies": {
+    "@ava/typescript": "4",
+    "@types/node": "20",
+    "@typescript-eslint/eslint-plugin": "7",
+    "@typescript-eslint/parser": "7",
+    "ava": "6",
+    "c8": "9",
+    "eslint": "8",
+    "eslint-config-prettier": "9",
+    "eslint-plugin-prettier": "5",
+    "prettier": "3",
+    "ts-node": "10",
+    "typescript": "5"
+  },
+  "ava": {
+    "typescript": {
+      "rewritePaths": {
+        "src/": "lib/"
+      },
+      "compile": false
+    },
+    "files": [
+      "tests/**/*.ts",
+      "tests/**/*.mjs"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
