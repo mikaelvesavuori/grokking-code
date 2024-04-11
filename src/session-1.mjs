@@ -1,5 +1,5 @@
 /**
- * It's all about primitive data types and the use of very simply things like numbers and lists.
+ * It's all about primitive data types and the use of very simple things like numbers and lists.
  */
 
 const array = ['asdf', 'abc', 'xyz'];

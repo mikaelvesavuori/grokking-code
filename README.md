@@ -46,8 +46,9 @@ Learning about code and software engineering, the right way. (WIP)
 - Assignment
 - Primitive data types
 - Iteration
-- Functions
+- Functions and methods
 - Classes
+- Data and behavior
 - Dynamic vs static typing
 - Types
 - Imperative and declarative
@@ -58,6 +59,7 @@ Learning about code and software engineering, the right way. (WIP)
 - Control flow and branching etc.
 - Integration and APIs
 - Mutability
+- Domain driven design
 
 ### Exercises
 
