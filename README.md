@@ -39,6 +39,7 @@ Learning about code and software engineering, the right way. (WIP)
 
 ### Concepts
 
+- Most common things code does: Communication, data manipulation, data persistence, control flow management
 - Interpreted vs compiled code
 - API
 - Design
@@ -54,7 +55,7 @@ Learning about code and software engineering, the right way. (WIP)
 - Test driven development
 - Encapsulation
 - Common principles, e.g. single responsibility principle
-- Control flow
+- Control flow and branching etc.
 - Integration and APIs
 - Mutability
 
