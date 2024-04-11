@@ -1,7 +1,8 @@
 {
-  "name": "node-minimalist-starter",
-  "description": "A minimalist starting point for TS/MJS projects",
+  "name": "grokking-code",
+  "description": "Learning about code and software engineering, the right way (WIP)",
   "version": "0.0.1",
+  "author": "Mikael Vesavuori",
   "scripts": {
     "start": "npx ts-node src/index.ts",
     "test": "npx c8 -reporter=lcov ava",
