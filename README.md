@@ -55,6 +55,7 @@ Learning about code and software engineering, the right way. (WIP)
 - Paradigms: Procedural, Structural, Functional, Object-oriented programming
 - Test driven development
 - Encapsulation
+- Information hiding
 - Common principles, e.g. single responsibility principle
 - Control flow and branching etc.
 - Integration and APIs

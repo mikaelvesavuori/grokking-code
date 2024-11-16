@@ -45,13 +45,13 @@ greet('Thom');
 export class Greeter {
   // Public
   greet(name) {
-    this.sayHi();
-    this.present(name);
-    this.sayBye();
+    this.#sayHi();
+    this.#present(name);
+    this.#sayBye();
   }
 
   // Private
-  present(name) {
+  #present(name) {
     //const _text = ['I ', 'am ', `${name}!`].join(''); // Functional style, no mutation
 
     let text = '';
@@ -64,12 +64,12 @@ export class Greeter {
   }
 
   // Private
-  sayHi() {
+  #sayHi() {
     console.log('Hi!');
   }
 
   // Private
-  sayBye() {
+  #sayBye() {
     console.log('Bye!');
   }
 }
